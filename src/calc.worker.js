@@ -77,7 +77,7 @@ function calculate() {
   }
 
   hasStopped = true;
-  postMessage({type: 'stop', time: ((new Date).getTime())});
+  postMessage({type: 'stop', dist: queue.peek().step, time: ((new Date).getTime())});
   postMessage({type: 'stat', stat: dest, step: lim});
 }
 

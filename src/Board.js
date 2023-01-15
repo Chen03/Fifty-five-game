@@ -1,6 +1,6 @@
 import './Board.css';
 
-export default function Board({board, setBoard, style}) {
+export default function Board({board, setBoard, style, draggable}) {
 
   const swap = (a, b) => {
     a = Number(a); b = Number(b);
@@ -9,7 +9,7 @@ export default function Board({board, setBoard, style}) {
 
   return (
     <div className='Board' style={style ?? {}}>{
-      board.map((val, index) => <div key={index} draggable='true'
+      board.map((val, index) => <div key={index} draggable={draggable}
         onDragStart={e => {
           // e.preventDefault();
           e.stopPropagation();

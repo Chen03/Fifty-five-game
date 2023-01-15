@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/Fifty-five-game/static/css/main.77a604fb.css",
-    "main.js": "/Fifty-five-game/static/js/main.954c8682.js",
-    "static/js/531.b9af7109.chunk.js": "/Fifty-five-game/static/js/531.b9af7109.chunk.js",
+    "main.js": "/Fifty-five-game/static/js/main.9cd234b7.js",
+    "static/js/531.5e1a10a0.chunk.js": "/Fifty-five-game/static/js/531.5e1a10a0.chunk.js",
     "static/js/393.7132d9df.chunk.js": "/Fifty-five-game/static/js/393.7132d9df.chunk.js",
     "static/js/139.37dfeffe.chunk.js": "/Fifty-five-game/static/js/139.37dfeffe.chunk.js",
     "index.html": "/Fifty-five-game/index.html",
     "static/media/arrow.svg": "/Fifty-five-game/static/media/arrow.d72e60b0a8a831ab2c5a885e4ae9ded9.svg",
     "main.77a604fb.css.map": "/Fifty-five-game/static/css/main.77a604fb.css.map",
-    "main.954c8682.js.map": "/Fifty-five-game/static/js/main.954c8682.js.map",
-    "531.b9af7109.chunk.js.map": "/Fifty-five-game/static/js/531.b9af7109.chunk.js.map",
+    "main.9cd234b7.js.map": "/Fifty-five-game/static/js/main.9cd234b7.js.map",
+    "531.5e1a10a0.chunk.js.map": "/Fifty-five-game/static/js/531.5e1a10a0.chunk.js.map",
     "393.7132d9df.chunk.js.map": "/Fifty-five-game/static/js/393.7132d9df.chunk.js.map",
     "139.37dfeffe.chunk.js.map": "/Fifty-five-game/static/js/139.37dfeffe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.77a604fb.css",
-    "static/js/main.954c8682.js"
+    "static/js/main.9cd234b7.js"
   ]
 }

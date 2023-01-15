@@ -4,7 +4,7 @@
 
 ## 使用
 
-1. 打开 Github Pages
+1. 打开 [Github Pages](https://chen03.github.io/Fifty-five-game/)
 
 或者
 
