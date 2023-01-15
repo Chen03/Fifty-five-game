@@ -89,7 +89,6 @@ onmessage = (ev) => {
       queue.push(new sta(0, ev.data.orig));
       dest = ev.data.dest;
       hasStopped = false;
-      startMessage();
       calculate();
       break;
   }
