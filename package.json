@@ -2,6 +2,7 @@
   "name": "aiwork",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://chen03.github.io/Fifty-five-game/",
   "dependencies": {
     "@babel/core": "^7.20.7",
     "@babel/plugin-syntax-flow": "^7.18.6",
