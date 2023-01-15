@@ -1,0 +1,17 @@
+.Board {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+}
+
+.Board ul {
+  list-style: none;
+}
+
+.Board div {
+  border: 1px solid black;
+  text-align: center;
+  line-height: 100px;
+  font-size: xxx-large;
+  font-weight: bolder;
+}

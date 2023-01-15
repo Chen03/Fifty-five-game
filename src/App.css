@@ -1,38 +1,52 @@
 .App {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.App > section {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.App > section > * {
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@keyframes fade {
+  0% { opacity: 50%; }
+  100% { opacity: 100%; }
+}
+
+.App .arrow {
+  width: 300px;
+  height: 200px;
+  animation: fade 1s alternate infinite cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.App > footer {
+  width: 100%;
+  height: 15vh;
+  margin: 2.5vh 0;
   text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App > footer > * {
+  flex-grow: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App > footer .counter {
+  font-size: xxx-large;
+  font-weight: bold;
+}
+
+.App > footer .counter > * {
+  margin: 50px;
 }
